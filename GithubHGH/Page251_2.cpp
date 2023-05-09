@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include "stackL251.h"
 
-
-
 int main(void) {
 	element item;
 	printf("\n** 연결 스택 연산 **\n");
