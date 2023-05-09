@@ -2,6 +2,7 @@
 #include "stackS247.h"
 
 int top = -1;
+element stack[STACK_SIZE];
 
 int isStackEmpty(void) {
 	if (top == -1) return 1;
