@@ -2,13 +2,11 @@
 #include <string.h>
 #include "stackL261.h"
 #include "testPair261.h"
-
-stackNode* top = NULL;
+extern stackNode* top;
 
 int testPair(char* exp) {
 	char symbol, open_pair;
 	int i, length = strlen(exp);
-	top = NULL;
 
 	for (i = 0; i < length; i++) {
 		symbol = exp[i];
