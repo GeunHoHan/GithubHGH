@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HelloWorld.cpp">
+    <ClCompile Include="Page247.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Page247.cpp">
+    <ClCompile Include="Page247_2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
