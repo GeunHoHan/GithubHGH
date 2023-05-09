@@ -6,7 +6,7 @@ typedef struct stackNode {
 	struct stackNode* link;
 } stackNode;
 
-stackNode* top;
+
 
 int isStackEmpty(void);
 void push(element item);

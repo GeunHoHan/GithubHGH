@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include "stackL251.h"
 
+stackNode* top = NULL;
+
 int isStackEmpty(void) {
 	if (top == NULL) return 1;
 	else return 0;
