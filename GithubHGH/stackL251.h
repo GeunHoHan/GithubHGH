@@ -6,7 +6,6 @@ typedef struct stackNode {
 	struct stackNode* link;
 } stackNode;
 
-
 int isStackEmpty(void);
 void push(element item);
 element pop(void);
