@@ -27,12 +27,27 @@
     <ClCompile Include="Page251_2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Page261.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Page261_2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Page261_3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stackS247.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="stackL251.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stackL261.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="testPair261.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
