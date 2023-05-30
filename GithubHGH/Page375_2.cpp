@@ -23,26 +23,29 @@ int main(void) {
 
 	while (1) {
 		menu();
-		scanf("%c", &choice);
+		scanf(" %c", &choice);
 
 		switch (choice - '0') {
 		case 1: printf("\t [이진 트리 출력]");
 			displayInorder(root); printf("\n");
 			break;
 		case 2: printf("삽입할 문자를 입력하세요 : ");
-			scanf("%c", &key);
+			scanf(" %c", &key);
 			insertBSTNode(root, key);
+			getchar();
 			break;
 		case 3: printf("삭제할 문자를 입력하세요 : ");
-			scanf("%c", &key);
+			scanf(" %c", &key);
 			deleteBSTNode(root, key);
+			getchar();
 			break;
 		case 4: printf("찾을 문자를 입력하세요 : ");
-			scanf("%c", &key);
+			scanf(" %c", &key);
 			foundedNode = searchBST(root, key);
 			if (foundedNode != NULL)
 				printf("\n %c를 찾았습니다! \n", foundedNode->key);
 			else printf("\n 문자를 찾지 못했습니다. \n");
+			getchar();
 			break;
 		case 5: return 0;
 
