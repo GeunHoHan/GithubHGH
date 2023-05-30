@@ -32,12 +32,10 @@ int main(void) {
 		case 2: printf("삽입할 문자를 입력하세요 : ");
 			scanf(" %c", &key);
 			insertBSTNode(root, key);
-			getchar();
 			break;
 		case 3: printf("삭제할 문자를 입력하세요 : ");
 			scanf(" %c", &key);
 			deleteBSTNode(root, key);
-			getchar();
 			break;
 		case 4: printf("찾을 문자를 입력하세요 : ");
 			scanf(" %c", &key);
@@ -45,7 +43,6 @@ int main(void) {
 			if (foundedNode != NULL)
 				printf("\n %c를 찾았습니다! \n", foundedNode->key);
 			else printf("\n 문자를 찾지 못했습니다. \n");
-			getchar();
 			break;
 		case 5: return 0;
 
