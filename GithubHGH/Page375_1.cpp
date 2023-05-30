@@ -38,7 +38,7 @@ void deleteBSTNode(treeNode* root, element key) {
 	parent = NULL;
 	p = root;
 	while ((p != NULL) && (p->key != key)) {
-		parent - p;
+		parent = p;
 		if (key < p->key) p = p->left;
 		else p = p->right;
 	}
