@@ -9,7 +9,7 @@ int main(void) {
 	graphType* G3 = (graphType*)malloc(sizeof(graphType));
 	graphType* G4 = (graphType*)malloc(sizeof(graphType));
 
-	createGraph(G1);
+	createGraph(G1); 
 	for (i = 0; i < 4; i++)
 		insertVertex(G1, i);
 	insertEdge(G1, 0, 3);
